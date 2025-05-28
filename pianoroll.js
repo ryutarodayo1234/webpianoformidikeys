@@ -1,7 +1,7 @@
 const pianoroll = document.getElementById('pianoroll');
 // 下から1オクターブ(12)短くする
-const NOTE_MIN = 33;   // A0(21) → A1(33)
-const NOTE_MAX = 120;       // C9(120)
+const NOTE_MIN = 21;   // A0(21) → A1(33)
+const NOTE_MAX = 109;       // C9(120)
 
 for (let midi = NOTE_MIN; midi <= NOTE_MAX; midi++) {
   const key = document.createElement('div');
