@@ -40,7 +40,7 @@ async function loadInstrument() {
     masterGain.gain.value = prevVolume;
     // ローディングスピナー非表示
     document.getElementById('loading-spinner').style.display = 'none';
-    alert("音源を読み込みました！");
+    // alert("音源を読み込みました！"); // ポップアップを削除
   }, ((NOTE_MAX - NOTE_MIN + 1) * delay + duration) * 1000);
 }
 
